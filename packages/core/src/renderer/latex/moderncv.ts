@@ -604,7 +604,7 @@ ${skills
     ({ name, computed: { level, keywords } }) =>
       `\\cvline{${name}}{${level}${showIfNotEmpty(
         keywords,
-        ` \\hfill \\textbf{${terms.keywords}}${colon}${keywords}`
+        ` ${keywords}`
       )}}`
   )
   .join('\n')}`

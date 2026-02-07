@@ -71,7 +71,7 @@ export function getTemplateTranslations(
       terms: {
         courses: 'Courses',
         keywords: 'Keywords',
-        score: 'Score',
+        score: 'GPA',
       },
     },
     'zh-hans': {
